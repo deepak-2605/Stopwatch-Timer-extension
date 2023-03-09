@@ -7,3 +7,4 @@ Usage:
 To use the extension, simply click on the stopwatch or timer icon in the browser toolbar to activate it. The stopwatch and timer will appear on the screen, and you can use them to track your activities.
 
 You can also use website version by following this link:
+https://stopwatch-timer-extension.vercel.app/
