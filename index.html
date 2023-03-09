@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="maincontainer">
+    <div class="select">
+       <h2 id="Stopwatch">Stopwatch</h2>
+       <h2 id="Timer">Timer</h2>
+    </div>
+    <div class="content">
+    <div id="stopwatch" class="stopwatch">
+     <div class="time" id="time">
+           0:00:00
+     </div>
+     <div class="icons">
+        <img src="icons/play.png" id="play"  alt="">
+        <img src="icons/pause.png" id="pause" disabled="true" alt="">
+        <img src="icons/reset.png" id="reset" alt="">
+     </div>
+    </div>
+    <div id="timer2">
+        <div class="maincontent">
+            <div class="displaytime">
+                <div>
+                    <input type="time" class="timer" step="1" name="" id="timer">
+                </div>
+                        <div class="buttons">
+                    <button class="Start" id="Start">Start</button>
+                    <button class="Reset" id="Reset">Reset</button>
+                    <button class="Stop" id="Stop">Stop</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+    <script src="main.js"></script>
+
+</body>
+</html>
